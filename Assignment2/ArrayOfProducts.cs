@@ -12,7 +12,7 @@ namespace Assignment2
         {
             products[] p = new products[5];
             p[0] = new products();
-            p[0].productid = 1;
+            //p[0].productid = 1;
             p[0].productname = "Mobile";
             p[0].price = 10000;
             p[0].UnitOfMeasurement = "pieces";
@@ -27,7 +27,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             p[1] = new products();
-            p[1].productid = 2;
+            //p[1].productid = 2;
             p[1].productname = "Laptop";
             p[1].price = 70000;
             p[1].UnitOfMeasurement = "pieces";
@@ -42,7 +42,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             p[2] = new products();
-            p[2].productid = 3;
+            //p[2].productid = 3;
             p[2].productname = "Charger";
             p[2].price = 500;
             p[2].UnitOfMeasurement = "pieces";
@@ -57,7 +57,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             p[3] = new products();
-            p[3].productid = 4;
+            //p[3].productid = 4;
             p[3].productname = "Mobile Cover";
             p[3].price = 200;
             p[3].UnitOfMeasurement = "pieces";
@@ -72,7 +72,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             p[4] = new products();
-            p[4].productid = 5;
+            //p[4].productid = 5;
             p[4].productname = "Keyboard";
             p[4].price = 500;
             p[4].UnitOfMeasurement = "pieces";

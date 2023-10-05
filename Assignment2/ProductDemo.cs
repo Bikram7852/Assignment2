@@ -11,7 +11,7 @@ namespace Assignment2
         static void Main(string[] args)
         {
             products p1 = new products();
-            p1.productid = 1;
+            //p1.productid = 1;
             p1.productname = "Mobile";
             p1.price = 10000;
             p1.UnitOfMeasurement = "pieces";
@@ -26,7 +26,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             products p2 = new products();
-            p2.productid = 2;
+            //p2.productid = 2;
             p2.productname = "Laptop";
             p2.price = 70000;
             p2.UnitOfMeasurement = "pieces";
@@ -41,7 +41,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             products p3 = new products();
-            p3.productid = 3;
+            //p3.productid = 3;
             p3.productname = "Charger";
             p3.price = 500;
             p3.UnitOfMeasurement = "pieces";
@@ -56,7 +56,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             products p4 = new products();
-            p4.productid = 4;
+            //p4.productid = 4;
             p4.productname = "Mobile Cover";
             p4.price = 200;
             p4.UnitOfMeasurement = "pieces";
@@ -71,7 +71,7 @@ namespace Assignment2
             Console.WriteLine("---------");
 
             products p5 = new products();
-            p5.productid = 5;
+            //p5.productid = 5;
             p5.productname = "Keyboard";
             p5.price = 500;
             p5.UnitOfMeasurement = "pieces";

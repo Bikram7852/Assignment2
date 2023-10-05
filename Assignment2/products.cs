@@ -8,7 +8,7 @@ namespace Assignment2
 {
     internal class products
     {
-        private int _productid;
+        private static int _lastProductid=0;
         private string _productname;
         private decimal _price;
         private string _UnitOfMeasurement;
@@ -16,9 +16,13 @@ namespace Assignment2
 
         public int productid
         {
-            get { return _productid; }
+            get;
+        }
 
-            set { _productid = value; }
+        public products()
+        {
+            _lastProductid++;
+            productid = _lastProductid;
         }
 
         public string productname
